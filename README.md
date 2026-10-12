@@ -1,6 +1,6 @@
 # DualTune-GhostDP
 
-### A Unified Framework for Synergistic Differentially Private Fine-Tuning of Language Models
+### A Unified Approach for Synergistic Differentially Private Fine-Tuning of Language Models
 
 **Official experimental code repository accompanying our TMLR paper.**
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-DualTune-GhostDP investigates a two-phase fine-tuning framework that combines sanitized-data adaptation, differentially private optimization, Ghost Clipping, and Edgeworth-based privacy accounting to improve the privacy–utility–memory trade-off of language model fine-tuning.
+DualTune-GhostDP investigates a two-phase fine-tuning approach that combines sanitized-data adaptation, differentially private optimization, Ghost Clipping, and Edgeworth-based privacy accounting to improve the privacy–utility–memory trade-off of language model fine-tuning.
 
 The experimental evaluation covers encoder-only transformer models (RoBERTa and BERT) and a decoder-only extension (DistilGPT-2 and GPT-2).
 
@@ -69,13 +69,13 @@ The released files represent the research implementations. Some configurations a
 
 ## Privacy Considerations
 
-The framework combines a nonprivate adaptation phase on deterministically sanitized text with a subsequent differentially private training phase. The formal scope of the privacy guarantees and associated assumptions should be interpreted according to the manuscript.
+The approach combines a nonprivate adaptation phase on deterministically sanitized text with a subsequent differentially private training phase. The formal scope of the privacy guarantees and associated assumptions should be interpreted according to the manuscript.
 
 ## Citation
 
 If you use the code, please cite:
 
-El Mais, R., Chehab, A., Issa, I., and Tajeddine, R. (2026). *DualTune-GhostDP: A Unified Framework for Synergistic Differentially Private Fine-Tuning of Language Models*. Transactions on Machine Learning Research.
+El Mais, R., Chehab, A., Issa, I., and Tajeddine, R. (2026). *DualTune-GhostDP: A Unified approach for Synergistic Differentially Private Fine-Tuning of Language Models*. Transactions on Machine Learning Research.
 
 **OpenReview:** https://openreview.net/forum?id=aJ74dIAQZH
 
